@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    color: dimgray;
+}
+
+section {
+    height: 600px;
+}
+
+.name-highlight {
+    color: orange;
+}
+
+#button1 {
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-align: center;
+    border-radius: 5px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.half-width {
+    width: 43%;
+    margin-left: 5%;
+    padding-left: 5%;
+    float: left;
+    margin-top: 3%;
+}
+
+.half-width h1 {
+    padding-top: 5%;
+    font-weight: bolder;
+}
+
+.half-width h4 {
+    font-weight: bolder;
+}
+
+#half-img {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width img {
+    width: 100%;
+    float: left;
+    height: 400px;
+}
+
+
+/* first section end */
+
+.second-banner {
+    margin-top: 5%;
+    background-image: url(images/dream-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#button2 {
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-align: center;
+    border-radius: 5px;
+    width: 180px;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* second section end*/
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.third-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h4 {
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
